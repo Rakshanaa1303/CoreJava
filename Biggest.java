@@ -1,22 +1,17 @@
-package myFirstProject;
+package Programs;
 
 public class Biggest {
 
 	public static void main(String[] args) {
-		int a=0, b=0;
 		
-		if(a==0 && b==0) {
-			System.out.println("Both cannot be zero");
-		}
-		else if(a>b) {
-			System.out.println(a+" is the biggest number");
-		}
-		else if(b>a){
-			System.out.println(b+" is the biggest number");
+		int a=10, b=20;
+		if(a>b) {
+			System.out.println("The biggest number is "+a);
 		}
 		else {
-			System.out.println("Both are equal");
+			System.out.println("The biggest number is "+b);
 		}
+
 	}
 
 }

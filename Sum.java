@@ -1,16 +1,19 @@
-package myFirstProject;
+package Programs;
 
 public class Sum {
 
 	public static void main(String[] args) {
 		
-		int m1=100, m2=100, m3=100, m4=100, m5=100;
-		int sum, avg;
-		sum=m1+m2+m3+m4+m5;
-		avg=sum/5;
-		System.out.println("Total:"+sum+" "+"Average:"+avg);
-		
-
+		int a=10, b=20, c=30, sum;
+		sum = a+b+c;
+		if(sum>100)
+		{
+			System.out.println("I am on cloud 9");
+		}
+		else
+		{
+			System.out.println("I am trying to reach the cloud");
+		}
 	}
 
 }
